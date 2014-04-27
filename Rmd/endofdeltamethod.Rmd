@@ -1,0 +1,36 @@
+
+We can see that that blah blah blah.
+
+Here is a quick example of testing for a difference of means between two gamma distributions.  The mean of a gamma is par1/par2 (at least using the default R parameterization)
+
+
+```{r gammadiff}
+set.seed(200)
+g1 <- rgamma(50, 2, 1)
+g2 <- rgamma(50, 5, 2)
+
+# Create the likelihood
+gamma.ll <- function(par){
+    sum(dgamma(g1, par[1], par[2], log = T)) + sum(dgamma(g2, par[3], par[4], log = T))
+}
+# I'll cheat and use the fact that I know the parameters
+# The control = list(fnscale = -1) tells it to find the maximum
+o <- optim(c(3,4,4,5), gamma.ll, hessian = T, control = list(fnscale = -1))
+
+# mean of a gamma is par[1]/par[2] so difference of means...
+p <- o$par
+est <- p[1]/p[2] - p[3]/p[4]
+# The covariance matrix is the negative of the inverse of the hessian...
+varcov <- -solve(o$hessian)
+
+# Actually using the deltamethod function to get standard error
+standerr <- deltamethod(~ x1/x2 - x3/x4, p, varcov)
+
+# confidence interval for difference of means
+est + c(-1, 1)*qnorm(.975)*standerr
+# Test of Ho: difference = 0
+z <- est/standerr
+2*pnorm(-abs(z))
+# Isn't too much different from a t.test in this case though...
+t.test(g1, g2)
+```

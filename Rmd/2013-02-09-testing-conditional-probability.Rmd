@@ -1,0 +1,19 @@
+---
+layout: post
+title: "testing conditional probability"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+
+_This was originally posted at [Point Mass Prior](http://dasonk.github.com) and features MathML.  If you're viewing from StatsBlogs the math probably won't show up properly and it would be beneficial to view the post [here]({{ page.url }})_.
+
+I just want to test conditional probability to see if it works.
+
+$$a^2 + b^2 = c^2$$
+
+Just making sure MathML works fine.
+
+
+$$P(A | B) = \frac{P(A \cap B)}{P(B)}$$

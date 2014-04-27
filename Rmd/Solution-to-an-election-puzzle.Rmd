@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Solution to an election puzzle"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+
+A few days ago I posted a puzzle ([LINK](http://dasonk.github.com/puzzle/2012/11/12/An-election-puzzle/)).  I'll present a solution to that puzzle here so if you haven't read the puzzle yet I would suggest doing that first and trying to figure it out for a while before reading the solution.
+

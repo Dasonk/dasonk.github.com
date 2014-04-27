@@ -1,0 +1,22 @@
+---
+layout: post
+title: "T-test as a linear model"
+description: "Exploring through a small simulation the t-test as a linear model"
+category: publish
+tags: [t-test, linear model]
+---
+{% include JB/setup %}
+
+$$y_i = \beta_0 + \beta_1x_i + \epsilon_i$$
+
+If we let $$ \beta_0 = 10 $$ and $$\beta_1 = 15$$ and let $$n=30$$ then we could have a model blah blah
+
+```{r}
+b0 <- 10
+b1 <- 11
+n <- 30
+x <- rep(c(0,1), each = n)
+y <- b0 + x*b1 + rnorm(n, 0, 1)
+ttestOutput <- t.test(y ~ x, var.equal = FALSE)
+lmOutput <- summary(lm(y ~ x))
+```
