@@ -30,6 +30,14 @@ Usage:
   <a href="{{ BASE_PATH }}/pages/archive.html">Archive</a>
 </li>
 
+<li {% if current[2] == 'blog.html' %}class="active"{% endif %}>
+  <a href="{{ BASE_PATH }}/pages/blog.html">Blog</a>
+</li>
+
 <li {% if current[2] == 'categories.html' %}class="active"{% endif %}>
   <a href="{{ BASE_PATH }}/pages/categories.html">Categories</a>
+</li>
+
+<li {% if current[2] == 'tags.html' %}class="active"{% endif %}>
+  <a href="{{ BASE_PATH }}/pages/tags.html">Tags</a>
 </li>
