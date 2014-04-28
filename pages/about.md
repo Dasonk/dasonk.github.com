@@ -29,5 +29,4 @@ I enjoy programming in R.  You can browse some of the projects I've been working
  - Statistical Computation
  - Bayesian Methods
  
- 
 
