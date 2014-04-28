@@ -69,9 +69,15 @@
 
           <div class="nav-collapse">
             <ul class="nav">
+              <!--
               {% assign pages_list = site.pages %}
               {% assign group = 'navigation' %}
               {% include JB/pages_list %}
+              -->
+              
+              {% include JB/nav_bar %}
+              
+              
             </ul>
             <ul class="nav pull-right social visible-desktop">
               <li class="divider-vertical"></li>
