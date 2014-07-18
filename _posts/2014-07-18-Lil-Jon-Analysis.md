@@ -7,7 +7,7 @@ tags: [lyrics]
 ---
 {% include JB/setup %}
 
-The following is an analysis of Lil' Jon's magnus opus "Turn Down (For What)".
+The following is an analysis of Lil' Jon's magnum opus "Turn Down (For What)".
 
 The buildup features a beat with a Shepard tone in the background building up the tension. One gets the impression that this is going to be a fun time.  Lil' Jon doesn't take too long to come in and at the 16 second mark we hear him proclaim "Fire up your loud - another round of shots".  The implication of course being that it's time to party and clearly they've had at least one round of shots already.  This seems like it's going to be a good night. After the music drops Lil' Jon grabs your attention with the question "Turn down for what?".  It's a question he wants you to ponder.  What is there that would make you want to 'turn down'?  Now turning up is taken to mean having a crazy good time partying typically by means of large amounts of alcohol and/or illegal drug use.  Lil' Jon can't find a reason one wouldn't want to turn up.  He asks the question five times in total.  He is demanding an answer and you have failed to provide one.  He is searching for meaning in this life and failing to find one he turns other means to numb the pain he feels.  Notice that he is not alone during his inquisition.  There are clearly others having a good time in the background calling out "eh" and making some fun sounding noises! He has his posse there but is still searching.  He crew isn't quite enough for him.  He wants to know why somebody would turn down but can't think of a reason.
 
