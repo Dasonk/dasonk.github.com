@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Comparing Two Groups"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+
+_This was originally posted at [Point Mass Prior](http://dasonk.github.com) and features MathML.  If you're viewing from StatsBlogs the math probably won't show up properly and it would be beneficial to view the post [here]({{ page.url }})_.
