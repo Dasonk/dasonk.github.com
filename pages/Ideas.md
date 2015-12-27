@@ -15,6 +15,8 @@ description: ""
  - More accurate birthday paradox calculator - take into account distribution of birthdays
  - Compare Normal vs. T(n-1) vs. T(n) for binomial confidence intervals
  - Mixed models vs. WLS with nested data
+ - Compare Chi-square to LRT for test of proportions
+      where the goal is to establish "close"
 
 ## R ideas
 
