@@ -17,6 +17,21 @@ description: ""
  - Mixed models vs. WLS with nested data
  - Compare Chi-square to LRT for test of proportions
       where the goal is to establish "close"
+ - The following:
+the danger occurs that "everything becomes significant" (even minor, practically irrelevant effects).
+This is not an argument against large sample sizes, it's a direct argument against hypothesis testing for your particular problem.
+
+If you have a problem rejecting for small effect sizes don't use ordinary hypothesis tests.
+
+It may be that you need an equivalence test (or perhaps a noninferiority test).
+
+It may be that you need an interval estimate of the effect size (i.e. a confidence interval).
+
+It may be that you need something else.
+
+This also relates to Position 3. If you have a notion of a "relevant effect" you should not be using ordinary hypothesis tests.
+
+If your position is not that more power is better, stop using those hypothesis tests. It's not the correct tool for that job.
 
 ## R ideas
 
