@@ -32,6 +32,7 @@ It may be that you need something else.
 This also relates to Position 3. If you have a notion of a "relevant effect" you should not be using ordinary hypothesis tests.
 
 If your position is not that more power is better, stop using those hypothesis tests. It's not the correct tool for that job.
+ - Post comparing z based CI and t based CI for proportions.
 
 ## R ideas
 
