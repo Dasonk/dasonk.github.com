@@ -21,7 +21,7 @@ author :
 
 name: Point Mass Prior
 description: Let the data speak
-url: http://dasonk.github.com
+url: http://dasonk.com
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -31,7 +31,7 @@ url: http://dasonk.github.com
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://dasonk.github.com
+production_url : http://dasonk.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
