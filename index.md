@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dason Kurkiewicz
-tagline: Graduate Student in Statistics
+tagline: Data Scientist at Healthesystems
 ---
 {% include JB/setup %}
 
