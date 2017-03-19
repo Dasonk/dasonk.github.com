@@ -3,7 +3,7 @@ layout: post
 title: "Using the delta method"
 description: ""
 category: R
-tags: [R, delta method, stats, statsblogs]
+tags: [R, delta method, stats, statsblogs, rbloggers]
 ---
 {% include JB/setup %}
 
