@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: ["Rmd", "Dasonk.github.com.Rproj", "index_old.md", ".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 
 markdown: kramdown
 
