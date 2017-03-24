@@ -5,10 +5,10 @@ layout: none
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>{{ site.name }}</title>
-		<description>Posts tagged as 'r'</description>
+		<description>Posts tagged as 'R'</description>
 		<link>{{ site.url }}</link>
-		<atom:link href="{{ site.url }}/feed.r.xml" rel="self" type="application/rss+xml" />
-		{% for post in site.tags.r limit:10 %}
+		<atom:link href="{{ site.url }}/feed.R.xml" rel="self" type="application/rss+xml" />
+		{% for post in site.tags.R limit:10 %}
 			<item>
 				<title>{{ post.title }}</title>
 				<description>{{ post.content | xml_escape }}</description>
