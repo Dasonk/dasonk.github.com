@@ -10,7 +10,15 @@ tagline: A blog about R and statistics
   <div class="span12">
     <div class="row">
       <div class="span9">
-      <a href="https://www.r-bloggers.com/">Check out r-bloggers for other great R blogs!</a>
+      
+        <div class="row">
+        <div class="span2">
+        </div>
+        <div class="span7">
+        <h3><a href="https://www.r-bloggers.com/">Check out r-bloggers for other great R blogs!</a></h3>
+        <hr>
+        </div>
+        </div>
 
         {% for post in site.posts limit:5 %}
         <div class="row">
