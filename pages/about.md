@@ -14,7 +14,7 @@ group: navigation
 
 ## About Me
 
-I am a graduate student studying Statistics at Iowa State University. I love R and Linux. I have been happily married since April of 2011. I have a beagle named Brutus and I'm sure he loves you.
+I used to be a graduate student studying Statistics at Iowa State University.  I am currently a data scientist working at PwC. I love R and Linux. I have been happily married since April of 2011. I have a beagle named Luna and I'm sure she loves you.
 
 ![Brutus](/images/Brutus.jpg "Brutus")
 
@@ -28,5 +28,6 @@ I enjoy programming in R.  You can browse some of the projects I've been working
  - Statistics education
  - Statistical Computation
  - Bayesian Methods
+ - Natural Language Processing
  
 
