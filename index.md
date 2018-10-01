@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dason Kurkiewicz
-tagline: Data Scientist at Healthesystems
+tagline: Data Scientist at PricewaterhouseCoopers
 ---
 {% include JB/setup %}
 
